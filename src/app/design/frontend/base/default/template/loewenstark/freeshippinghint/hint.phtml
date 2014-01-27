@@ -1,0 +1,5 @@
+<?php if ($this->isBelow()): ?>
+    <p class="freeshipping below"><?php echo $this->getBelowMsg(); ?></p>
+<?php else: ?>
+    <p class="freeshipping above"><?php echo $this->getAboveMsg(); ?></p>
+<?php endif; ?>

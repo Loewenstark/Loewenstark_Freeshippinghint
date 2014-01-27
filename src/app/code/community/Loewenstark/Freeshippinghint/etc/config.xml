@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Loewenstark_Freeshippinghint>
+			<version>0.0.1</version>
+		</Loewenstark_Freeshippinghint>
+	</modules>
+
+	<global>
+		<helpers>
+			<freeshippinghint>
+				<class>Loewenstark_Freeshippinghint_Helper</class>
+			</freeshippinghint>
+		</helpers>
+
+		<blocks>
+			<freeshippinghint>
+				<class>Loewenstark_Freeshippinghint_Block</class>
+			</freeshippinghint>
+		</blocks>
+	</global>
+
+	<frontend>
+		<layout>
+			<updates>
+				<freeshippinghint>
+					<file>loewenstark/freeshippinghint.xml</file>
+				</freeshippinghint>
+			</updates>
+		</layout>
+
+		<translate>
+			<modules>
+				<Loewenstark_Freeshippinghint>
+					<files>
+						<default>Loewenstark_Freeshippinghint.csv</default>
+					</files>
+				</Loewenstark_Freeshippinghint>
+			</modules>
+		</translate>
+	</frontend>
+
+	<default>
+		<freeshippinghint>
+			<general>
+				<enabled>false</enabled>
+				<amount>100.00</amount>
+				<min_value>0.00</min_value>
+				<msg_below><![CDATA[%s left until free shipping]]></msg_below>
+				<msg_above><![CDATA[Eligable for free shipping]]></msg_above>
+			</general>
+		</freeshippinghint>
+	</default>
+
+	<adminhtml>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<freeshippinghint>
+											<title>Free Shipping Hint</title>
+										</freeshippinghint>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<translate>
+			<modules>
+				<Loewenstark_Freeshippinghint>
+					<files>
+						<default>Loewenstark_Freeshippinghint.csv</default>
+					</files>
+				</Loewenstark_Freeshippinghint>
+			</modules>
+		</translate>
+	</adminhtml>
+</config>

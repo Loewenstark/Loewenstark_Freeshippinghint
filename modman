@@ -1,0 +1,6 @@
+src/app/code/community/Loewenstark/Freeshippinghint                               app/code/community/Loewenstark/Freeshippinghint
+src/app/etc/modules/Loewenstark_Freeshippinghint.xml                              app/etc/modules/Loewenstark_Freeshippinghint.xml
+src/app/design/frontend/base/default/layout/loewenstark/freeshippinghint.xml      app/design/frontend/base/default/layout/loewenstark/freeshippinghint.xml
+src/app/design/frontend/base/default/template/loewenstark/freeshippinghint        app/design/frontend/base/default/template/loewenstark/freeshippinghint
+src/app/locale/de_DE/Loewenstark_Freeshippinghint.csv                             app/locale/de_DE/Loewenstark_Freeshippinghint.csv
+src/app/locale/en_US/Loewenstark_Freeshippinghint.csv                             app/locale/en_US/Loewenstark_Freeshippinghint.csv

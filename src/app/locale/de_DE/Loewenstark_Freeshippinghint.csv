@@ -1,0 +1,12 @@
+"Free Shipping Hint","Kostenloser Versand Hinweis"
+"General","Allgemein"
+"Show hint","Hinweis anzeigen"
+"Amount","Wert"
+"Free shipping amount, used <span style=""font-weight:bold;"">for display only</span>! Please make sure you have a corresponding cart promotion rule set up.","Wert für kostenlosen Versand, wird <span style="">nur für den Hinweis verwendet</span>! Bitte stellen Sie sicher, dass eine entsprechende Warenkorbpreisregel eingerichtet ist."
+"Min Value","Mindestwert"
+"Do not show hint if cart total is below this value","Hinweis nicht anzeigen, wenn Warenkorb weniger als dieser Wert"
+"Below min. value msg","Hinweis, wenn Wert nicht erreicht"
+"This message is displayed if the free shipping amount has not been reached.<br />The amount will be inserted at the ""%s"" string.",
+"Dieser Text wird ausgegeben, solange der Wert für den kostenlosen Versand nocht nicht erreicht wurde.<br />Der berechnete Wert kann durch den Platzhalter ""%s"" eingefügt werden."
+"Above min. value msg.","Hinweis, wenn Wert erreicht"
+"Displayed if the free shipping amount has been reached.","Wird angezeigt, wenn der erforderliche Wert erreicht wurde."

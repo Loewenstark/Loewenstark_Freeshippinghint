@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <loewenstark translate="label" module="freeshippinghint">
+            <label>Löwenstark</label>
+            <sort_order>800</sort_order>
+        </loewenstark>
+    </tabs>
+    <sections>
+        <freeshippinghint translate="label">
+            <label>Free Shipping Hint</label>
+            <tab>loewenstark</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <sort_order>90</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label><![CDATA[Show hint]]></label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <amount translate="label comment">
+                            <label><![CDATA[Amount]]></label>
+                            <comment><![CDATA[Free shipping amount, used <span style="font-weight:bold;">for display only</span>! Please make sure you have a corresponding cart promotion rule set up.]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number validate-zero-or-greater</validate>
+                            <sort_order>95</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </amount>
+                        <min_value translate="label comment">
+                            <label><![CDATA[Min Value]]></label>
+                            <comment><![CDATA[Do not show hint if cart total is below this value]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number validate-zero-or-greater</validate>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </min_value>
+                        <msg_below translate="label comment">
+                            <label><![CDATA[Below min. value msg]]></label>
+                            <comment><![CDATA[This message is displayed if the free shipping amount has not been reached.<br />The amount will be inserted at the "%s" string.]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>200</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </msg_below>
+                        <msg_above translate="label comment">
+                            <label><![CDATA[Above min. value msg.]]></label>
+                            <comment><![CDATA[Displayed if the free shipping amount has been reached.]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>210</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </msg_above>
+                    </fields>
+                </general>
+            </groups>
+        </freeshippinghint>
+    </sections>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="cart_sidebar.extra_actions">
+            <block type="freeshippinghint/hint" name="freeshippinghint" template="loewenstark/freeshippinghint/hint.phtml" />
+        </reference>
+    </default>
+</layout>
